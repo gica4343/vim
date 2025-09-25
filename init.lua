@@ -13,6 +13,6 @@ vim.keymap.set("i", "<", "<><Left>")
 vim.keymap.set("i", "'", "''<Left>")
 vim.keymap.set("i", "\"", "\"\"<Left>")
 
-vim.keymap.set('n', '<leader>w', ':write<CR>')
-vim.keymap.set('n', '<leader>q', ':quit<CR>')
+vim.keymap.set('n', '<C-s>', ':write<CR>')
+vim.keymap.set('n', '<C-q>', ':quit<CR>')
 vim.cmd(":hi statusline guibg=NONE")
